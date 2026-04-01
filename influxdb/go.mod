@@ -5,8 +5,8 @@ go 1.26.0
 require (
 	github.com/InfluxCommunity/influxdb3-go/v2 v2.13.0
 	github.com/chnxq/XGoKit v0.0.0-20260330151520-d039f77f16be
-	github.com/chnxq/x-crud/api v0.0.0-20260401133214-8beb9e82a396
-	github.com/chnxq/x-crud/pagination v0.0.0-20260401133214-8beb9e82a396
+	github.com/chnxq/x-crud/api v0.0.0-20260401161650-55b5903ccf62
+	github.com/chnxq/x-crud/pagination v0.0.0-20260401161650-55b5903ccf62
 	github.com/chnxq/x-utils v0.0.0-20260331165454-35d20273b087
 	github.com/stretchr/testify v1.11.1
 	google.golang.org/protobuf v1.36.11
@@ -15,7 +15,6 @@ require (
 require (
 	github.com/apache/arrow-go/v18 v18.5.1 // indirect
 	github.com/davecgh/go-spew v1.1.2-0.20180830191138-d8f796af33cc // indirect
-	github.com/go-kratos/kratos/v2 v2.9.2 // indirect
 	github.com/goccy/go-json v0.10.6 // indirect
 	github.com/google/flatbuffers v25.12.19+incompatible // indirect
 	github.com/google/gnostic v0.7.1 // indirect

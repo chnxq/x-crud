@@ -4,7 +4,7 @@ go 1.26.0
 
 require (
 	github.com/chnxq/XGoKit v0.0.0-20260330151520-d039f77f16be
-	github.com/chnxq/x-crud/api v0.0.0-20260401133214-8beb9e82a396
+	github.com/chnxq/x-crud/api v0.0.0-20260401161650-55b5903ccf62
 	github.com/chnxq/x-utils v0.0.0-20260331165454-35d20273b087
 	github.com/google/go-cmp v0.7.0
 	go.einride.tech/aip v0.84.0

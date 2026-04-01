@@ -5,8 +5,8 @@ go 1.26.0
 require (
 	github.com/ClickHouse/clickhouse-go/v2 v2.44.0
 	github.com/chnxq/XGoKit v0.0.0-20260330151520-d039f77f16be
-	github.com/chnxq/x-crud/api v0.0.0-20260401133214-8beb9e82a396
-	github.com/chnxq/x-crud/pagination v0.0.0-20260401133214-8beb9e82a396
+	github.com/chnxq/x-crud/api v0.0.0-20260401161650-55b5903ccf62
+	github.com/chnxq/x-crud/pagination v0.0.0-20260401161650-55b5903ccf62
 	github.com/chnxq/x-utils v0.0.0-20260331165454-35d20273b087
 	github.com/chnxq/x-utils/mapper v0.0.0-20260331165454-35d20273b087
 	github.com/stretchr/testify v1.11.1
@@ -20,7 +20,6 @@ require (
 	github.com/davecgh/go-spew v1.1.2-0.20180830191138-d8f796af33cc // indirect
 	github.com/go-faster/city v1.0.1 // indirect
 	github.com/go-faster/errors v0.7.1 // indirect
-	github.com/go-kratos/kratos/v2 v2.9.2 // indirect
 	github.com/google/gnostic v0.7.1 // indirect
 	github.com/google/gnostic-models v0.7.1 // indirect
 	github.com/google/uuid v1.6.0 // indirect
