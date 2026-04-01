@@ -2,17 +2,16 @@ module github.com/chnxq/x-crud/entgo
 
 go 1.26.0
 
-replace github.com/chnxq/x-crud/entgo => ./
+//replace github.com/chnxq/x-crud/entgo => ./
 
 require (
 	entgo.io/ent v0.14.6
 	github.com/XSAM/otelsql v0.42.0
 	github.com/chnxq/XGoKit v0.0.0-20260330151520-d039f77f16be
-	github.com/chnxq/x-crud/entgo v0.0.0-20260401142639-06ef67e0b618
-	github.com/chnxq/x-crud/api v0.0.0-20260401142639-06ef67e0b618
-	github.com/chnxq/x-crud/audit v0.0.0-20260401142639-06ef67e0b618
-	github.com/chnxq/x-crud/pagination v0.0.0-20260401142639-06ef67e0b618
-	github.com/chnxq/x-crud/viewer v0.0.0-20260401142639-06ef67e0b618
+	github.com/chnxq/x-crud/api v0.0.0-20260401161650-55b5903ccf62
+	github.com/chnxq/x-crud/audit v0.0.0-20260401161650-55b5903ccf62
+	github.com/chnxq/x-crud/pagination v0.0.0-20260401161650-55b5903ccf62
+	github.com/chnxq/x-crud/viewer v0.0.0-20260401161650-55b5903ccf62
 	github.com/chnxq/x-utils v0.0.0-20260331165454-35d20273b087
 	github.com/chnxq/x-utils/id v0.0.0-20260331165454-35d20273b087
 	github.com/chnxq/x-utils/mapper v0.0.0-20260331165454-35d20273b087
