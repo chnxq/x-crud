@@ -3,7 +3,7 @@ version: v2
 
 #modules:
 #  - path: protos/errors
-#    name: buf.build/chnxq/x-curd-errors
+#    name: buf.build/chnxq/x-crud-errors
 #    lint:
 #      use:
 #        - STANDARD
@@ -12,7 +12,7 @@ version: v2
 #        - FILE
 #
 #  - path: protos/pagination
-#    name: buf.build/chnxq/x-curd-pagination
+#    name: buf.build/chnxq/x-crud-pagination
 #    lint:
 #      use:
 #        - STANDARD
@@ -22,7 +22,7 @@ version: v2
 
 modules:
   - path: protos
-    name: buf.build/chnxq/x-curd
+    name: buf.build/chnxq/x-crud
     lint:
       use:
         - STANDARD

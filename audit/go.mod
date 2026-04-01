@@ -1,3 +1,3 @@
-module github.com/chnxq/x-curd/audit
+module github.com/chnxq/x-crud/audit
 
 go 1.26.0

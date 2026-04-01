@@ -1,6 +1,6 @@
 package paginator
 
-import "github.com/chnxq/x-curd/pagination"
+import "github.com/chnxq/x-crud/pagination"
 
 var DefaultLimit = 10
 var DefaultOffset = 0

@@ -1,10 +1,10 @@
-module github.com/chnxq/x-curd/elasticsearch
+module github.com/chnxq/x-crud/elasticsearch
 
 go 1.25.0
 
 require (
 	github.com/chnxq/XGoKit v0.0.0-20260330151520-d039f77f16be
-	github.com/chnxq/x-curd/api v0.0.0-20260401133214-8beb9e82a396
+	github.com/chnxq/x-crud/api v0.0.0-20260401133214-8beb9e82a396
 	github.com/elastic/go-elasticsearch/v9 v9.3.1
 	github.com/stretchr/testify v1.11.1
 )

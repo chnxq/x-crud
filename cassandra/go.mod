@@ -1,4 +1,4 @@
-module github.com/chnxq/x-curd/cassandra
+module github.com/chnxq/x-crud/cassandra
 
 go 1.26.0
 

@@ -1,7 +1,7 @@
 package field
 
 import (
-	"github.com/chnxq/x-curd/clickhouse/query"
+	"github.com/chnxq/x-crud/clickhouse/query"
 )
 
 // Selector 字段选择器，用于构建 ClickHouse 查询中的 SELECT 子句。

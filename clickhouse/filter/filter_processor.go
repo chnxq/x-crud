@@ -8,9 +8,9 @@ import (
 	"github.com/chnxq/XGoKit/encoding"
 	"github.com/chnxq/x-utils/stringcase"
 
-	paginationV1 "github.com/chnxq/x-curd/api/gen/pagination/v1"
-	"github.com/chnxq/x-curd/clickhouse/query"
-	"github.com/chnxq/x-curd/pagination/filter"
+	paginationV1 "github.com/chnxq/x-crud/api/gen/pagination/v1"
+	"github.com/chnxq/x-crud/clickhouse/query"
+	"github.com/chnxq/x-crud/pagination/filter"
 )
 
 var jsonKeyPattern = regexp.MustCompile(`^[A-Za-z0-9_.]+$`)

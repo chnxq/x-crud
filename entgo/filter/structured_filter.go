@@ -10,8 +10,8 @@ import (
 	_ "github.com/chnxq/XGoKit/encoding/json"
 	"github.com/chnxq/XGoKit/log"
 
-	paginationV1 "github.com/chnxq/x-curd/api/gen/pagination/v1"
-	"github.com/chnxq/x-curd/pagination/filter"
+	paginationV1 "github.com/chnxq/x-crud/api/gen/pagination/v1"
+	"github.com/chnxq/x-crud/pagination/filter"
 )
 
 // StructuredFilter 基于 FilterExpr 的过滤器

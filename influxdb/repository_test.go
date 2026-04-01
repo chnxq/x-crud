@@ -8,7 +8,7 @@ package influxdb
 //	"github.com/stretchr/testify/assert"
 //	"github.com/chnxq/x-utils/mapper"
 //
-//	paginationV1 "github.com/chnxq/x-curd/api/gen/pagination/v1"
+//	paginationV1 "github.com/chnxq/x-crud/api/gen/pagination/v1"
 //	mongoV2 "go.mongodb.org/mongo-driver/v2/mongo"
 //)
 //

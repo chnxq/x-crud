@@ -4,7 +4,7 @@ import (
 	"entgo.io/ent"
 	"entgo.io/ent/schema/mixin"
 
-	"github.com/chnxq/x-curd/entgo/interceptor"
+	"github.com/chnxq/x-crud/entgo/interceptor"
 )
 
 var _ ent.Mixin = (*SoftDelete)(nil)

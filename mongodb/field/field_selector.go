@@ -4,7 +4,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/chnxq/x-curd/mongodb/query"
+	"github.com/chnxq/x-crud/mongodb/query"
 	"github.com/chnxq/x-utils/stringcase"
 	bsonV2 "go.mongodb.org/mongo-driver/v2/bson"
 )

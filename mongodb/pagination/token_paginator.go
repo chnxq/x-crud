@@ -5,11 +5,11 @@ import (
 
 	"github.com/chnxq/XGoKit/encoding"
 	_ "github.com/chnxq/XGoKit/encoding/json"
-	"github.com/chnxq/x-curd/pagination"
+	"github.com/chnxq/x-crud/pagination"
 	bsonV2 "go.mongodb.org/mongo-driver/v2/bson"
 
-	"github.com/chnxq/x-curd/mongodb/query"
-	"github.com/chnxq/x-curd/pagination/paginator"
+	"github.com/chnxq/x-crud/mongodb/query"
+	"github.com/chnxq/x-crud/pagination/paginator"
 )
 
 // TokenPaginator 基于 Token 的分页器（MongoDB 版）

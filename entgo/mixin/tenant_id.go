@@ -5,7 +5,7 @@ import (
 	"entgo.io/ent/schema/field"
 	"entgo.io/ent/schema/mixin"
 
-	"github.com/chnxq/x-curd/entgo/rule"
+	"github.com/chnxq/x-crud/entgo/rule"
 )
 
 type TenantID[IDT uint32 | uint64] struct{ mixin.Schema }

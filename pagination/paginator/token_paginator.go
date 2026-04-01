@@ -1,6 +1,6 @@
 package paginator
 
-import "github.com/chnxq/x-curd/pagination"
+import "github.com/chnxq/x-crud/pagination"
 
 type tokenPaginator struct {
 	token     string

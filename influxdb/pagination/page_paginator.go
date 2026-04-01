@@ -1,9 +1,9 @@
 package pagination
 
 import (
-	"github.com/chnxq/x-curd/influxdb/query"
-	"github.com/chnxq/x-curd/pagination"
-	"github.com/chnxq/x-curd/pagination/paginator"
+	"github.com/chnxq/x-crud/influxdb/query"
+	"github.com/chnxq/x-crud/pagination"
+	"github.com/chnxq/x-crud/pagination/paginator"
 )
 
 // PagePaginator 基于页码的分页器（InfluxDB 版）

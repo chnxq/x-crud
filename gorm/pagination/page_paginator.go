@@ -1,8 +1,8 @@
 package pagination
 
 import (
-	"github.com/chnxq/x-curd/pagination"
-	"github.com/chnxq/x-curd/pagination/paginator"
+	"github.com/chnxq/x-crud/pagination"
+	"github.com/chnxq/x-crud/pagination/paginator"
 	"gorm.io/gorm"
 )
 

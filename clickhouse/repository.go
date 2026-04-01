@@ -12,14 +12,14 @@ import (
 	"github.com/chnxq/x-utils/mapper"
 	"google.golang.org/protobuf/types/known/fieldmaskpb"
 
-	paginationV1 "github.com/chnxq/x-curd/api/gen/pagination/v1"
-	"github.com/chnxq/x-curd/clickhouse/field"
-	"github.com/chnxq/x-curd/clickhouse/filter"
-	paging "github.com/chnxq/x-curd/clickhouse/pagination"
-	"github.com/chnxq/x-curd/clickhouse/query"
-	"github.com/chnxq/x-curd/clickhouse/sorting"
-	paginationFilter "github.com/chnxq/x-curd/pagination/filter"
-	paginationSorting "github.com/chnxq/x-curd/pagination/sorting"
+	paginationV1 "github.com/chnxq/x-crud/api/gen/pagination/v1"
+	"github.com/chnxq/x-crud/clickhouse/field"
+	"github.com/chnxq/x-crud/clickhouse/filter"
+	paging "github.com/chnxq/x-crud/clickhouse/pagination"
+	"github.com/chnxq/x-crud/clickhouse/query"
+	"github.com/chnxq/x-crud/clickhouse/sorting"
+	paginationFilter "github.com/chnxq/x-crud/pagination/filter"
+	paginationSorting "github.com/chnxq/x-crud/pagination/sorting"
 )
 
 // PagingResult 是通用的分页返回结构，包含 items 和 total 字段

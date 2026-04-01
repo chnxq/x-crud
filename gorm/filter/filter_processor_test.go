@@ -9,7 +9,7 @@ import (
 	"gorm.io/gorm"
 	"gorm.io/gorm/logger"
 
-	paginationV1 "github.com/chnxq/x-curd/api/gen/pagination/v1"
+	paginationV1 "github.com/chnxq/x-crud/api/gen/pagination/v1"
 )
 
 // 简单的测试模型

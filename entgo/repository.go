@@ -14,14 +14,14 @@ import (
 	"google.golang.org/protobuf/proto"
 	"google.golang.org/protobuf/types/known/fieldmaskpb"
 
-	paginationV1 "github.com/chnxq/x-curd/api/gen/pagination/v1"
-	"github.com/chnxq/x-curd/entgo/field"
-	"github.com/chnxq/x-curd/entgo/filter"
-	pagination "github.com/chnxq/x-curd/entgo/pagination"
-	"github.com/chnxq/x-curd/entgo/sorting"
-	"github.com/chnxq/x-curd/entgo/update"
-	paginationFilter "github.com/chnxq/x-curd/pagination/filter"
-	paginationSorting "github.com/chnxq/x-curd/pagination/sorting"
+	paginationV1 "github.com/chnxq/x-crud/api/gen/pagination/v1"
+	"github.com/chnxq/x-crud/entgo/field"
+	"github.com/chnxq/x-crud/entgo/filter"
+	pagination "github.com/chnxq/x-crud/entgo/pagination"
+	"github.com/chnxq/x-crud/entgo/sorting"
+	"github.com/chnxq/x-crud/entgo/update"
+	paginationFilter "github.com/chnxq/x-crud/pagination/filter"
+	paginationSorting "github.com/chnxq/x-crud/pagination/sorting"
 )
 
 // Repository Ent查询器

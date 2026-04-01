@@ -13,13 +13,13 @@ import (
 
 	"github.com/chnxq/x-utils/mapper"
 
-	paginationV1 "github.com/chnxq/x-curd/api/gen/pagination/v1"
-	"github.com/chnxq/x-curd/gorm/field"
-	"github.com/chnxq/x-curd/gorm/filter"
-	paging "github.com/chnxq/x-curd/gorm/pagination"
-	"github.com/chnxq/x-curd/gorm/sorting"
-	paginationFilter "github.com/chnxq/x-curd/pagination/filter"
-	paginationSorting "github.com/chnxq/x-curd/pagination/sorting"
+	paginationV1 "github.com/chnxq/x-crud/api/gen/pagination/v1"
+	"github.com/chnxq/x-crud/gorm/field"
+	"github.com/chnxq/x-crud/gorm/filter"
+	paging "github.com/chnxq/x-crud/gorm/pagination"
+	"github.com/chnxq/x-crud/gorm/sorting"
+	paginationFilter "github.com/chnxq/x-crud/pagination/filter"
+	paginationSorting "github.com/chnxq/x-crud/pagination/sorting"
 )
 
 // PagingResult 通用分页返回

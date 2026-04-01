@@ -1,3 +1,3 @@
-module github.com/chnxq/x-curd/viewer
+module github.com/chnxq/x-crud/viewer
 
 go 1.25.0

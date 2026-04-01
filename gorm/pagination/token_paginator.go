@@ -3,13 +3,13 @@ package pagination
 import (
 	"encoding/base64"
 
-	"github.com/chnxq/x-curd/pagination"
+	"github.com/chnxq/x-crud/pagination"
 	"gorm.io/gorm"
 
 	"github.com/chnxq/XGoKit/encoding"
 	_ "github.com/chnxq/XGoKit/encoding/json"
 
-	"github.com/chnxq/x-curd/pagination/paginator"
+	"github.com/chnxq/x-crud/pagination/paginator"
 )
 
 // TokenPaginator 基于 Token 的分页器

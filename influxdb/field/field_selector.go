@@ -4,7 +4,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/chnxq/x-curd/influxdb/query"
+	"github.com/chnxq/x-crud/influxdb/query"
 	"github.com/chnxq/x-utils/stringcase"
 )
 

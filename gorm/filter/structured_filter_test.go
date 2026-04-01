@@ -6,7 +6,7 @@ import (
 
 	"google.golang.org/protobuf/encoding/protojson"
 
-	paginationV1 "github.com/chnxq/x-curd/api/gen/pagination/v1"
+	paginationV1 "github.com/chnxq/x-crud/api/gen/pagination/v1"
 )
 
 func mustMarshal(fe *paginationV1.FilterExpr) string {

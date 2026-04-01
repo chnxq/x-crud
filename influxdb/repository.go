@@ -7,14 +7,14 @@ import (
 
 	"github.com/chnxq/XGoKit/log"
 
-	paginationV1 "github.com/chnxq/x-curd/api/gen/pagination/v1"
-	"github.com/chnxq/x-curd/influxdb/field"
-	"github.com/chnxq/x-curd/influxdb/filter"
-	paging "github.com/chnxq/x-curd/influxdb/pagination"
-	"github.com/chnxq/x-curd/influxdb/query"
-	"github.com/chnxq/x-curd/influxdb/sorting"
-	paginationFilter "github.com/chnxq/x-curd/pagination/filter"
-	paginationSorting "github.com/chnxq/x-curd/pagination/sorting"
+	paginationV1 "github.com/chnxq/x-crud/api/gen/pagination/v1"
+	"github.com/chnxq/x-crud/influxdb/field"
+	"github.com/chnxq/x-crud/influxdb/filter"
+	paging "github.com/chnxq/x-crud/influxdb/pagination"
+	"github.com/chnxq/x-crud/influxdb/query"
+	"github.com/chnxq/x-crud/influxdb/sorting"
+	paginationFilter "github.com/chnxq/x-crud/pagination/filter"
+	paginationSorting "github.com/chnxq/x-crud/pagination/sorting"
 )
 
 // Repository MongoDB 版仓库（泛型）

@@ -11,8 +11,8 @@ import (
 
 	"entgo.io/ent"
 
-	"github.com/chnxq/x-curd/audit"
-	"github.com/chnxq/x-curd/viewer"
+	"github.com/chnxq/x-crud/audit"
+	"github.com/chnxq/x-crud/viewer"
 )
 
 type Audit struct {

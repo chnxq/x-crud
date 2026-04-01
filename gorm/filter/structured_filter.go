@@ -11,7 +11,7 @@ import (
 
 	"github.com/chnxq/x-utils/stringcase"
 
-	paginationV1 "github.com/chnxq/x-curd/api/gen/pagination/v1"
+	paginationV1 "github.com/chnxq/x-crud/api/gen/pagination/v1"
 )
 
 // StructuredFilter 基于 FilterExpr 的 GORM 过滤器

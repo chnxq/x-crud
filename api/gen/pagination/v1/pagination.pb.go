@@ -1591,7 +1591,7 @@ const file_pagination_v1_pagination_proto_rawDesc = "" +
 	"\x15EXPR_TYPE_UNSPECIFIED\x10\x00\x12\a\n" +
 	"\x03AND\x10\x01\x12\x06\n" +
 	"\x02OR\x10\x02B\x98\x01\n" +
-	"\x0ecom.paginationB\x0fPaginationProtoP\x01Z-github.com/chnxq/x-curd/api/gen/pagination/v1\xa2\x02\x03PXX\xaa\x02\n" +
+	"\x0ecom.paginationB\x0fPaginationProtoP\x01Z-github.com/chnxq/x-crud/api/gen/pagination/v1\xa2\x02\x03PXX\xaa\x02\n" +
 	"Pagination\xca\x02\n" +
 	"Pagination\xe2\x02\x16Pagination\\GPBMetadata\xea\x02\n" +
 	"Paginationb\x06proto3"

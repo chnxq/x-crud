@@ -5,7 +5,7 @@ import (
 
 	"entgo.io/ent/dialect/sql"
 
-	paginationV1 "github.com/chnxq/x-curd/api/gen/pagination/v1"
+	paginationV1 "github.com/chnxq/x-crud/api/gen/pagination/v1"
 )
 
 func newSelector() *sql.Selector {

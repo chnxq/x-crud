@@ -6,7 +6,7 @@ managed:
   optimize_for: SPEED
 
   go_package_prefix:
-    default: github.com/chnxq/x-curd/api/gen
+    default: github.com/chnxq/x-crud/api/gen
     except:
       - 'buf.build/googleapis/googleapis'
       - 'buf.build/gnostic/gnostic'

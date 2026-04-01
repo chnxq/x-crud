@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"testing"
 
-	paginationV1 "github.com/chnxq/x-curd/api/gen/pagination/v1"
+	paginationV1 "github.com/chnxq/x-crud/api/gen/pagination/v1"
 )
 
 func TestOrderByStringConverter_Convert_Empty(t *testing.T) {

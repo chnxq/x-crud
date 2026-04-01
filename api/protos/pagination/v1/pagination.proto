@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package pagination;
 
-option go_package = "github.com/chnxq/x-curd/api/gen/pagination/v1;pagination";
+option go_package = "github.com/chnxq/x-crud/api/gen/pagination/v1;pagination";
 
 import "google/protobuf/field_mask.proto";
 import "google/protobuf/wrappers.proto";

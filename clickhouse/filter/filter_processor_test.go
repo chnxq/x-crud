@@ -4,8 +4,8 @@ import (
 	"strings"
 	"testing"
 
-	paginationV1 "github.com/chnxq/x-curd/api/gen/pagination/v1"
-	"github.com/chnxq/x-curd/clickhouse/query"
+	paginationV1 "github.com/chnxq/x-crud/api/gen/pagination/v1"
+	"github.com/chnxq/x-crud/clickhouse/query"
 )
 
 func TestProcessor_BuilderSQLFragments(t *testing.T) {

@@ -1,6 +1,6 @@
 package filter
 
-import paginationV1 "github.com/chnxq/x-curd/api/gen/pagination/v1"
+import paginationV1 "github.com/chnxq/x-crud/api/gen/pagination/v1"
 
 var (
 	queryStringConverter  = NewQueryStringConverter()

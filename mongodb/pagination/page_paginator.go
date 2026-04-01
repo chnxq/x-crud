@@ -1,9 +1,9 @@
 package pagination
 
 import (
-	"github.com/chnxq/x-curd/mongodb/query"
-	"github.com/chnxq/x-curd/pagination"
-	"github.com/chnxq/x-curd/pagination/paginator"
+	"github.com/chnxq/x-crud/mongodb/query"
+	"github.com/chnxq/x-crud/pagination"
+	"github.com/chnxq/x-crud/pagination/paginator"
 )
 
 // PagePaginator 基于页码的分页器（MongoDB 版）

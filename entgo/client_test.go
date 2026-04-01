@@ -5,13 +5,13 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/chnxq/x-curd/entgo/ent/menu"
-	"github.com/chnxq/x-curd/entgo/ent/migrate"
-	"github.com/chnxq/x-curd/viewer"
+	"github.com/chnxq/x-crud/entgo/ent/menu"
+	"github.com/chnxq/x-crud/entgo/ent/migrate"
+	"github.com/chnxq/x-crud/viewer"
 	_ "github.com/xiaoqidun/entps"
 
-	"github.com/chnxq/x-curd/entgo/ent"
-	_ "github.com/chnxq/x-curd/entgo/ent/runtime"
+	"github.com/chnxq/x-crud/entgo/ent"
+	_ "github.com/chnxq/x-crud/entgo/ent/runtime"
 )
 
 func createTestEntClient(t *testing.T) *EntClient[*ent.Client] {

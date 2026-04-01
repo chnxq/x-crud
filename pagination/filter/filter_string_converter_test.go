@@ -5,7 +5,7 @@ import (
 	"strings"
 	"testing"
 
-	paginationV1 "github.com/chnxq/x-curd/api/gen/pagination/v1"
+	paginationV1 "github.com/chnxq/x-crud/api/gen/pagination/v1"
 	"go.einride.tech/aip/filtering"
 	v1alpha1 "google.golang.org/genproto/googleapis/api/expr/v1alpha1"
 )

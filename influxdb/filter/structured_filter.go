@@ -5,8 +5,8 @@ import (
 
 	"github.com/chnxq/XGoKit/encoding"
 
-	paginationV1 "github.com/chnxq/x-curd/api/gen/pagination/v1"
-	"github.com/chnxq/x-curd/influxdb/query"
+	paginationV1 "github.com/chnxq/x-crud/api/gen/pagination/v1"
+	"github.com/chnxq/x-crud/influxdb/query"
 )
 
 // StructuredFilter 将 FilterExpr 转为基于 InfluxDB 的 查询条件，使用 Processor 在 *query.Builder 上追加 WHERE 子句

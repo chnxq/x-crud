@@ -3,8 +3,8 @@ package filter
 import (
 	"testing"
 
-	paginationV1 "github.com/chnxq/x-curd/api/gen/pagination/v1"
-	"github.com/chnxq/x-curd/mongodb/query"
+	paginationV1 "github.com/chnxq/x-crud/api/gen/pagination/v1"
+	"github.com/chnxq/x-crud/mongodb/query"
 )
 
 func TestProcessor_Process_ReturnsBuilder_NoPanic(t *testing.T) {

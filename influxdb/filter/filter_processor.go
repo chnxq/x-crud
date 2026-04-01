@@ -8,8 +8,8 @@ import (
 	"github.com/chnxq/XGoKit/encoding"
 	_ "github.com/chnxq/XGoKit/encoding/json"
 
-	paginationV1 "github.com/chnxq/x-curd/api/gen/pagination/v1"
-	"github.com/chnxq/x-curd/influxdb/query"
+	paginationV1 "github.com/chnxq/x-crud/api/gen/pagination/v1"
+	"github.com/chnxq/x-crud/influxdb/query"
 	"github.com/chnxq/x-utils/stringcase"
 )
 

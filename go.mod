@@ -1,3 +1,3 @@
-module github.com/chnxq/x-curd
+module github.com/chnxq/x-crud
 
 go 1.26.0

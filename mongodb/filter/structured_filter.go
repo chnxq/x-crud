@@ -6,8 +6,8 @@ import (
 	"github.com/chnxq/XGoKit/encoding"
 	bsonV2 "go.mongodb.org/mongo-driver/v2/bson"
 
-	paginationV1 "github.com/chnxq/x-curd/api/gen/pagination/v1"
-	"github.com/chnxq/x-curd/mongodb/query"
+	paginationV1 "github.com/chnxq/x-crud/api/gen/pagination/v1"
+	"github.com/chnxq/x-crud/mongodb/query"
 )
 
 // StructuredFilter 将 FilterExpr 转为 MongoDB BSON filter 并应用到 *query.Builder

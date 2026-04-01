@@ -1,11 +1,11 @@
-module github.com/chnxq/x-curd/gorm
+module github.com/chnxq/x-crud/gorm
 
 go 1.26.0
 
 require (
 	github.com/chnxq/XGoKit v0.0.0-20260330151520-d039f77f16be
-	github.com/chnxq/x-curd/api v0.0.0-20260401142639-06ef67e0b618
-	github.com/chnxq/x-curd/pagination v0.0.0-20260401142639-06ef67e0b618
+	github.com/chnxq/x-crud/api v0.0.0-20260401142639-06ef67e0b618
+	github.com/chnxq/x-crud/pagination v0.0.0-20260401142639-06ef67e0b618
 	github.com/chnxq/x-utils v0.0.0-20260331165454-35d20273b087
 	github.com/chnxq/x-utils/id v0.0.0-20260331165454-35d20273b087
 	github.com/chnxq/x-utils/mapper v0.0.0-20260331165454-35d20273b087

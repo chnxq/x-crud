@@ -6,7 +6,7 @@ import (
 
 	"gorm.io/gorm"
 
-	paginationV1 "github.com/chnxq/x-curd/api/gen/pagination/v1"
+	paginationV1 "github.com/chnxq/x-crud/api/gen/pagination/v1"
 )
 
 // StructuredSorting 用于把结构化的排序指令转换为 GORM 的 order scope

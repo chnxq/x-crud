@@ -7,10 +7,10 @@ import (
 	"github.com/chnxq/XGoKit/encoding"
 	_ "github.com/chnxq/XGoKit/encoding/json"
 
-	"github.com/chnxq/x-curd/mongodb/query"
+	"github.com/chnxq/x-crud/mongodb/query"
 	"github.com/chnxq/x-utils/stringcase"
 
-	paginationV1 "github.com/chnxq/x-curd/api/gen/pagination/v1"
+	paginationV1 "github.com/chnxq/x-crud/api/gen/pagination/v1"
 	bsonV2 "go.mongodb.org/mongo-driver/v2/bson"
 )
 

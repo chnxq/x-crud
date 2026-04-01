@@ -1,4 +1,4 @@
-module github.com/chnxq/x-curd/api
+module github.com/chnxq/x-crud/api
 
 go 1.26.0
 

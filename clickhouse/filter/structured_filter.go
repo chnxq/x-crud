@@ -9,8 +9,8 @@ import (
 
 	"github.com/chnxq/x-utils/stringcase"
 
-	paginationV1 "github.com/chnxq/x-curd/api/gen/pagination/v1"
-	"github.com/chnxq/x-curd/clickhouse/query"
+	paginationV1 "github.com/chnxq/x-crud/api/gen/pagination/v1"
+	"github.com/chnxq/x-crud/clickhouse/query"
 )
 
 // StructuredFilter 基于 FilterExpr 的 ClickHouse 过滤器（不依赖 GORM）

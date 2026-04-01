@@ -60,7 +60,7 @@ const file_errors_v1_errors_proto_rawDesc = "" +
 	"\fdefault_code\x12\x1c.google.protobuf.EnumOptions\x18\xd4\b \x01(\x05R\vdefaultCode:6\n" +
 	"\x04code\x12!.google.protobuf.EnumValueOptions\x18\xd5\b \x01(\x05R\x04codeB|\n" +
 	"\n" +
-	"com.errorsB\vErrorsProtoP\x01Z)github.com/chnxq/x-curd/api/gen/errors/v1\xa2\x02\x03EXX\xaa\x02\x06Errors\xca\x02\x06Errors\xe2\x02\x12Errors\\GPBMetadata\xea\x02\x06Errorsb\x06proto3"
+	"com.errorsB\vErrorsProtoP\x01Z)github.com/chnxq/x-crud/api/gen/errors/v1\xa2\x02\x03EXX\xaa\x02\x06Errors\xca\x02\x06Errors\xe2\x02\x12Errors\\GPBMetadata\xea\x02\x06Errorsb\x06proto3"
 
 var file_errors_v1_errors_proto_goTypes = []any{
 	(*descriptorpb.EnumOptions)(nil),      // 0: google.protobuf.EnumOptions

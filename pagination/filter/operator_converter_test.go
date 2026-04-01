@@ -3,7 +3,7 @@ package filter
 import (
 	"testing"
 
-	paginationV1 "github.com/chnxq/x-curd/api/gen/pagination/v1"
+	paginationV1 "github.com/chnxq/x-crud/api/gen/pagination/v1"
 	"github.com/chnxq/x-utils/trans"
 )
 

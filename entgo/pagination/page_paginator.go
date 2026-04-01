@@ -2,8 +2,8 @@ package pagination
 
 import (
 	"entgo.io/ent/dialect/sql"
-	"github.com/chnxq/x-curd/pagination"
-	"github.com/chnxq/x-curd/pagination/paginator"
+	"github.com/chnxq/x-crud/pagination"
+	"github.com/chnxq/x-crud/pagination/paginator"
 )
 
 // PagePaginator 基于页码的分页器

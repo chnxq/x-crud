@@ -3,8 +3,8 @@ package sorting
 import (
 	"strings"
 
-	paginationV1 "github.com/chnxq/x-curd/api/gen/pagination/v1"
-	"github.com/chnxq/x-curd/clickhouse/query"
+	paginationV1 "github.com/chnxq/x-crud/api/gen/pagination/v1"
+	"github.com/chnxq/x-crud/clickhouse/query"
 )
 
 // StructuredSorting 将结构化排序指令转换为 ClickHouse 的 ORDER BY 子句

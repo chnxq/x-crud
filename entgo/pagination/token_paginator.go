@@ -4,12 +4,12 @@ import (
 	"encoding/base64"
 
 	"entgo.io/ent/dialect/sql"
-	"github.com/chnxq/x-curd/pagination"
+	"github.com/chnxq/x-crud/pagination"
 
 	"github.com/chnxq/XGoKit/encoding"
 	_ "github.com/chnxq/XGoKit/encoding/json"
 
-	"github.com/chnxq/x-curd/pagination/paginator"
+	"github.com/chnxq/x-crud/pagination/paginator"
 )
 
 // TokenPaginator 基于 Token 的分页器

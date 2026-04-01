@@ -3,8 +3,8 @@ package pagination
 import (
 	"gorm.io/gorm"
 
-	"github.com/chnxq/x-curd/pagination"
-	"github.com/chnxq/x-curd/pagination/paginator"
+	"github.com/chnxq/x-crud/pagination"
+	"github.com/chnxq/x-crud/pagination/paginator"
 )
 
 // OffsetPaginator 基于 Offset 的分页器
