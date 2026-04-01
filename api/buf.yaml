@@ -1,0 +1,42 @@
+# For details on buf.yaml configuration, visit https://buf.build/docs/configuration/v2/buf-yaml
+version: v2
+
+#modules:
+#  - path: protos/errors
+#    name: buf.build/chnxq/x-curd-errors
+#    lint:
+#      use:
+#        - STANDARD
+#    breaking:
+#      use:
+#        - FILE
+#
+#  - path: protos/pagination
+#    name: buf.build/chnxq/x-curd-pagination
+#    lint:
+#      use:
+#        - STANDARD
+#    breaking:
+#      use:
+#        - FILE
+
+modules:
+  - path: protos
+    name: buf.build/chnxq/x-curd
+    lint:
+      use:
+        - STANDARD
+    breaking:
+      use:
+        - FILE
+
+deps:
+  - 'buf.build/gnostic/gnostic'
+
+breaking:
+  use:
+    - FILE
+
+lint:
+  use:
+    - STANDARD
