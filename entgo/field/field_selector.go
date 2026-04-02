@@ -4,7 +4,6 @@ import (
 	"strings"
 
 	"entgo.io/ent/dialect/sql"
-	"github.com/chnxq/x-utils/stringcase"
 )
 
 // Selector 字段选择器，用于构建SELECT语句中的字段列表。
