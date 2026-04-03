@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package errors;
 
-option go_package = "github.com/chnxq/x-crud/api/gen/errors/v1;errors";
+option go_package = "github.com/chnxq/XGoKit/errors;errors";
 
 import "google/protobuf/descriptor.proto";
 
