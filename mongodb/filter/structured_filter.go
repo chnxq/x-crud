@@ -3,7 +3,7 @@ package filter
 import (
 	"strings"
 
-	"github.com/chnxq/XGoKit/encoding"
+	"github.com/chnxq/xkitmod/encoding"
 	bsonV2 "go.mongodb.org/mongo-driver/v2/bson"
 
 	paginationV1 "github.com/chnxq/x-crud/api/gen/pagination/v1"

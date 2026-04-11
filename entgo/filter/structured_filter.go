@@ -6,9 +6,9 @@ import (
 	"entgo.io/ent/dialect"
 	"entgo.io/ent/dialect/sql"
 
-	"github.com/chnxq/XGoKit/encoding"
-	_ "github.com/chnxq/XGoKit/encoding/json"
-	"github.com/chnxq/XGoKit/log"
+	"github.com/chnxq/xkitmod/encoding"
+	_ "github.com/chnxq/xkitmod/encoding/json"
+	"github.com/chnxq/xkitmod/log"
 
 	paginationV1 "github.com/chnxq/x-crud/api/gen/pagination/v1"
 	"github.com/chnxq/x-crud/pagination/filter"

@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/chnxq/XGoKit/log"
+	"github.com/chnxq/xkitmod/log"
 	"github.com/stretchr/testify/assert"
 )
 

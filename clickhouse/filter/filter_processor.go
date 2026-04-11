@@ -5,8 +5,8 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/chnxq/XGoKit/encoding"
 	"github.com/chnxq/x-utils/stringcase"
+	"github.com/chnxq/xkitmod/encoding"
 
 	paginationV1 "github.com/chnxq/x-crud/api/gen/pagination/v1"
 	"github.com/chnxq/x-crud/clickhouse/query"

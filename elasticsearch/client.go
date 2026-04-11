@@ -6,7 +6,7 @@ import (
 	"encoding/json"
 	"io"
 
-	"github.com/chnxq/XGoKit/log"
+	"github.com/chnxq/xkitmod/log"
 
 	elasticsearchV9 "github.com/elastic/go-elasticsearch/v9"
 	esapiV9 "github.com/elastic/go-elasticsearch/v9/esapi"

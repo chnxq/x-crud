@@ -6,8 +6,8 @@ import (
 	"time"
 
 	"github.com/InfluxCommunity/influxdb3-go/v2/influxdb3"
-	"github.com/chnxq/XGoKit/log"
 	"github.com/chnxq/x-utils/trans"
+	"github.com/chnxq/xkitmod/log"
 	"github.com/stretchr/testify/assert"
 	"google.golang.org/protobuf/types/known/timestamppb"
 )

@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	_ "github.com/chnxq/XGoKit/encoding/json"
+	_ "github.com/chnxq/xkitmod/encoding/json"
 	"go.einride.tech/aip/filtering"
 	v1alpha1 "google.golang.org/genproto/googleapis/api/expr/v1alpha1"
 

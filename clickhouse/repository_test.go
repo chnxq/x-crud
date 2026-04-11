@@ -6,9 +6,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/chnxq/XGoKit/log"
 	"github.com/chnxq/x-utils/mapper"
 	"github.com/chnxq/x-utils/trans"
+	"github.com/chnxq/xkitmod/log"
 	"github.com/stretchr/testify/assert"
 	"google.golang.org/protobuf/types/known/fieldmaskpb"
 

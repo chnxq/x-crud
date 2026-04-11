@@ -6,8 +6,8 @@ import (
 	"github.com/chnxq/x-crud/pagination"
 	"gorm.io/gorm"
 
-	"github.com/chnxq/XGoKit/encoding"
-	_ "github.com/chnxq/XGoKit/encoding/json"
+	"github.com/chnxq/xkitmod/encoding"
+	_ "github.com/chnxq/xkitmod/encoding/json"
 
 	"github.com/chnxq/x-crud/pagination/paginator"
 )

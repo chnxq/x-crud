@@ -5,7 +5,7 @@ import (
 	"time"
 
 	"github.com/InfluxCommunity/influxdb3-go/v2/influxdb3"
-	"github.com/chnxq/XGoKit/log"
+	"github.com/chnxq/xkitmod/log"
 )
 
 type Option func(o *Client)

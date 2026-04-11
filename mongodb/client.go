@@ -5,7 +5,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/chnxq/XGoKit/log"
+	"github.com/chnxq/xkitmod/log"
 
 	mongoV2 "go.mongodb.org/mongo-driver/v2/mongo"
 	optionsV2 "go.mongodb.org/mongo-driver/v2/mongo/options"

@@ -1,6 +1,6 @@
 package clickhouse
 
-import "github.com/chnxq/XGoKit/errors"
+import "github.com/chnxq/xkitmod/errors"
 
 var (
 	// ErrInvalidColumnName is returned when an invalid column name is used.

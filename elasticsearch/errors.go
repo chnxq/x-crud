@@ -1,6 +1,6 @@
 package elasticsearch
 
-import "github.com/chnxq/XGoKit/errors"
+import "github.com/chnxq/xkitmod/errors"
 
 var (
 	// ErrRequestFailed is returned when a request to Elasticsearch fails.

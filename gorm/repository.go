@@ -8,7 +8,7 @@ import (
 	"gorm.io/gorm"
 	"gorm.io/gorm/clause"
 
-	"github.com/chnxq/XGoKit/log"
+	"github.com/chnxq/xkitmod/log"
 	"google.golang.org/protobuf/types/known/fieldmaskpb"
 
 	"github.com/chnxq/x-utils/mapper"

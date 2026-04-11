@@ -13,7 +13,7 @@ import (
 	"entgo.io/ent/dialect"
 	entSql "entgo.io/ent/dialect/sql"
 
-	"github.com/chnxq/XGoKit/log"
+	"github.com/chnxq/xkitmod/log"
 
 	"go.opentelemetry.io/otel/attribute"
 	semconv "go.opentelemetry.io/otel/semconv/v1.10.0"

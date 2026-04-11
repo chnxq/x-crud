@@ -1,6 +1,6 @@
 package influxdb
 
-import "github.com/chnxq/XGoKit/errors"
+import "github.com/chnxq/xkitmod/errors"
 
 var (
 	ErrInfluxDBClientNotInitialized = errors.InternalServer("INFLUXDB_CLIENT_NOT_INITIALIZED", "client not initialized")

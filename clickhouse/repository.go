@@ -8,8 +8,8 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/chnxq/XGoKit/log"
 	"github.com/chnxq/x-utils/mapper"
+	"github.com/chnxq/xkitmod/log"
 	"google.golang.org/protobuf/types/known/fieldmaskpb"
 
 	paginationV1 "github.com/chnxq/x-crud/api/gen/pagination/v1"

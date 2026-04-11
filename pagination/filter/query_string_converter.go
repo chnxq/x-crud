@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/chnxq/XGoKit/encoding"
-	_ "github.com/chnxq/XGoKit/encoding/json"
 	"github.com/chnxq/x-utils/stringcase"
+	"github.com/chnxq/xkitmod/encoding"
+	_ "github.com/chnxq/xkitmod/encoding/json"
 
 	paginationV1 "github.com/chnxq/x-crud/api/gen/pagination/v1"
 	"github.com/chnxq/x-crud/pagination"

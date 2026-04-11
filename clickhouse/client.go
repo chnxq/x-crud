@@ -8,7 +8,7 @@ import (
 	"strings"
 
 	clickhouseV2 "github.com/ClickHouse/clickhouse-go/v2"
-	"github.com/chnxq/XGoKit/log"
+	"github.com/chnxq/xkitmod/log"
 )
 
 type Client struct {

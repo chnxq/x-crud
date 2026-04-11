@@ -3,7 +3,7 @@ package filter
 import (
 	"strings"
 
-	"github.com/chnxq/XGoKit/encoding"
+	"github.com/chnxq/xkitmod/encoding"
 
 	paginationV1 "github.com/chnxq/x-crud/api/gen/pagination/v1"
 	"github.com/chnxq/x-crud/influxdb/query"

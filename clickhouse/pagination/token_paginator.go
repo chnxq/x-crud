@@ -3,11 +3,11 @@ package pagination
 import (
 	"encoding/base64"
 
-	"github.com/chnxq/XGoKit/encoding"
-	_ "github.com/chnxq/XGoKit/encoding/json"
 	"github.com/chnxq/x-crud/clickhouse/query"
 	"github.com/chnxq/x-crud/pagination"
 	"github.com/chnxq/x-crud/pagination/paginator"
+	"github.com/chnxq/xkitmod/encoding"
+	_ "github.com/chnxq/xkitmod/encoding/json"
 )
 
 // TokenPaginator 基于 Token 的分页器（ClickHouse 版）

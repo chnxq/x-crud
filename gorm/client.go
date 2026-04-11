@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/chnxq/XGoKit/log"
+	"github.com/chnxq/xkitmod/log"
 
 	"gorm.io/gorm"
 	"gorm.io/gorm/logger"

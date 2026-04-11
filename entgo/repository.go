@@ -5,7 +5,7 @@ import (
 	"errors"
 
 	"entgo.io/ent/dialect/sql"
-	"github.com/chnxq/XGoKit/log"
+	"github.com/chnxq/xkitmod/log"
 
 	"github.com/chnxq/x-utils/fieldmaskutil"
 	"github.com/chnxq/x-utils/mapper"

@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/chnxq/XGoKit/log"
 	"github.com/chnxq/x-utils/stringcase"
+	"github.com/chnxq/xkitmod/log"
 )
 
 // Builder 用于构建 ClickHouse SQL 查询

@@ -4,7 +4,7 @@ import (
 	"crypto/tls"
 	"time"
 
-	"github.com/chnxq/XGoKit/log"
+	"github.com/chnxq/xkitmod/log"
 	optionsV2 "go.mongodb.org/mongo-driver/v2/mongo/options"
 )
 

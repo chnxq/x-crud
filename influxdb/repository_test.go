@@ -4,7 +4,7 @@ package influxdb
 //	"context"
 //	"testing"
 //
-//	"github.com/chnxq/XGoKit/log"
+//	"github.com/chnxq/xkitmod/log"
 //	"github.com/stretchr/testify/assert"
 //	"github.com/chnxq/x-utils/mapper"
 //
