@@ -3,7 +3,7 @@ module github.com/chnxq/x-crud/cassandra
 go 1.26.0
 
 require (
-	github.com/chnxq/xkitmod/log v0.0.0-20260411044744-e624782fe2e0
+	github.com/chnxq/xkitmod/log v0.0.0-20260411132219-50da08594d1b
 	github.com/gocql/gocql v1.7.0
 )
 

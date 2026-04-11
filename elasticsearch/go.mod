@@ -3,9 +3,9 @@ module github.com/chnxq/x-crud/elasticsearch
 go 1.26.0
 
 require (
-	github.com/chnxq/x-crud/api v0.0.0-20260404174952-cb722340828e
-	github.com/chnxq/xkitmod v0.0.0-20260411044744-e624782fe2e0
-	github.com/chnxq/xkitmod/log v0.0.0-20260411044744-e624782fe2e0
+	github.com/chnxq/x-crud/api v0.0.0-20260411051743-72a5a38c608a
+	github.com/chnxq/xkitmod v0.0.0-20260411132219-50da08594d1b
+	github.com/chnxq/xkitmod/log v0.0.0-20260411132219-50da08594d1b
 	github.com/elastic/go-elasticsearch/v9 v9.3.1
 	github.com/stretchr/testify v1.11.1
 )

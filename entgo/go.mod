@@ -7,15 +7,15 @@ go 1.26.0
 require (
 	entgo.io/ent v0.14.6
 	github.com/XSAM/otelsql v0.42.0
-	github.com/chnxq/x-crud/api v0.0.0-20260404174952-cb722340828e
-	github.com/chnxq/x-crud/audit v0.0.0-20260404174952-cb722340828e
-	github.com/chnxq/x-crud/pagination v0.0.0-20260404174952-cb722340828e
-	github.com/chnxq/x-crud/viewer v0.0.0-20260404174952-cb722340828e
+	github.com/chnxq/x-crud/api v0.0.0-20260411051743-72a5a38c608a
+	github.com/chnxq/x-crud/audit v0.0.0-20260411051743-72a5a38c608a
+	github.com/chnxq/x-crud/pagination v0.0.0-20260411051743-72a5a38c608a
+	github.com/chnxq/x-crud/viewer v0.0.0-20260411051743-72a5a38c608a
 	github.com/chnxq/x-utils v0.0.0-20260331165454-35d20273b087
 	github.com/chnxq/x-utils/id v0.0.0-20260331165454-35d20273b087
 	github.com/chnxq/x-utils/mapper v0.0.0-20260331165454-35d20273b087
-	github.com/chnxq/xkitmod v0.0.0-20260411043701-ee2a753a6fb2
-	github.com/chnxq/xkitmod/log v0.0.0-20260411044744-e624782fe2e0
+	github.com/chnxq/xkitmod v0.0.0-20260411132219-50da08594d1b
+	github.com/chnxq/xkitmod/log v0.0.0-20260411132219-50da08594d1b
 	github.com/google/uuid v1.6.0
 	github.com/stretchr/testify v1.11.1
 	github.com/xiaoqidun/entps v1.48.1
@@ -30,7 +30,6 @@ require (
 	github.com/bmatcuk/doublestar v1.3.4 // indirect
 	github.com/bwmarrin/snowflake v0.3.0 // indirect
 	github.com/cespare/xxhash/v2 v2.3.0 // indirect
-	github.com/chnxq/XGoKit v0.0.0-20260405133730-f2df3fec0a32 // indirect
 	github.com/davecgh/go-spew v1.1.2-0.20180830191138-d8f796af33cc // indirect
 	github.com/dustin/go-humanize v1.0.1 // indirect
 	github.com/go-logr/logr v1.4.3 // indirect
@@ -56,6 +55,8 @@ require (
 	go.mongodb.org/mongo-driver/v2 v2.5.0 // indirect
 	go.opentelemetry.io/auto/sdk v1.2.1 // indirect
 	go.opentelemetry.io/otel/metric v1.43.0 // indirect
+	go.opentelemetry.io/otel/sdk v1.43.0 // indirect
+	go.opentelemetry.io/otel/sdk/metric v1.43.0 // indirect
 	go.opentelemetry.io/otel/trace v1.43.0 // indirect
 	go.yaml.in/yaml/v3 v3.0.4 // indirect
 	golang.org/x/mod v0.35.0 // indirect

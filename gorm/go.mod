@@ -3,13 +3,13 @@ module github.com/chnxq/x-crud/gorm
 go 1.26.0
 
 require (
-	github.com/chnxq/x-crud/api v0.0.0-20260404174952-cb722340828e
-	github.com/chnxq/x-crud/pagination v0.0.0-20260404174952-cb722340828e
+	github.com/chnxq/x-crud/api v0.0.0-20260411051743-72a5a38c608a
+	github.com/chnxq/x-crud/pagination v0.0.0-20260411051743-72a5a38c608a
 	github.com/chnxq/x-utils v0.0.0-20260331165454-35d20273b087
 	github.com/chnxq/x-utils/id v0.0.0-20260331165454-35d20273b087
 	github.com/chnxq/x-utils/mapper v0.0.0-20260331165454-35d20273b087
-	github.com/chnxq/xkitmod v0.0.0-20260411043701-ee2a753a6fb2
-	github.com/chnxq/xkitmod/log v0.0.0-20260411044744-e624782fe2e0
+	github.com/chnxq/xkitmod v0.0.0-20260411132219-50da08594d1b
+	github.com/chnxq/xkitmod/log v0.0.0-20260411132219-50da08594d1b
 	github.com/glebarez/sqlite v1.11.0
 	github.com/google/uuid v1.6.0
 	go.opentelemetry.io/otel v1.43.0
@@ -45,7 +45,6 @@ require (
 	github.com/beorn7/perks v1.0.1 // indirect
 	github.com/bwmarrin/snowflake v0.3.0 // indirect
 	github.com/cespare/xxhash/v2 v2.3.0 // indirect
-	github.com/chnxq/XGoKit v0.0.0-20260405133730-f2df3fec0a32 // indirect
 	github.com/dustin/go-humanize v1.0.1 // indirect
 	github.com/felixge/httpsnoop v1.0.4 // indirect
 	github.com/glebarez/go-sqlite v1.22.0 // indirect

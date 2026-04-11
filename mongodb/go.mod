@@ -3,19 +3,18 @@ module github.com/chnxq/x-crud/mongodb
 go 1.26.0
 
 require (
-	github.com/chnxq/x-crud/api v0.0.0-20260404174952-cb722340828e
-	github.com/chnxq/x-crud/pagination v0.0.0-20260404174952-cb722340828e
+	github.com/chnxq/x-crud/api v0.0.0-20260411051743-72a5a38c608a
+	github.com/chnxq/x-crud/pagination v0.0.0-20260411051743-72a5a38c608a
 	github.com/chnxq/x-utils v0.0.0-20260331165454-35d20273b087
 	github.com/chnxq/x-utils/mapper v0.0.0-20260331165454-35d20273b087
-	github.com/chnxq/xkitmod v0.0.0-20260411044744-e624782fe2e0
-	github.com/chnxq/xkitmod/log v0.0.0-20260411044744-e624782fe2e0
+	github.com/chnxq/xkitmod v0.0.0-20260411132219-50da08594d1b
+	github.com/chnxq/xkitmod/log v0.0.0-20260411132219-50da08594d1b
 	github.com/stretchr/testify v1.11.1
 	go.mongodb.org/mongo-driver/v2 v2.5.0
 	google.golang.org/protobuf v1.36.11
 )
 
 require (
-	github.com/chnxq/XGoKit v0.0.0-20260405133730-f2df3fec0a32 // indirect
 	github.com/davecgh/go-spew v1.1.2-0.20180830191138-d8f796af33cc // indirect
 	github.com/google/gnostic v0.7.1 // indirect
 	github.com/google/gnostic-models v0.7.1 // indirect

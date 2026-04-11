@@ -4,12 +4,12 @@ go 1.26.0
 
 require (
 	github.com/ClickHouse/clickhouse-go/v2 v2.44.0
-	github.com/chnxq/x-crud/api v0.0.0-20260404174952-cb722340828e
-	github.com/chnxq/x-crud/pagination v0.0.0-20260404174952-cb722340828e
+	github.com/chnxq/x-crud/api v0.0.0-20260411051743-72a5a38c608a
+	github.com/chnxq/x-crud/pagination v0.0.0-20260411051743-72a5a38c608a
 	github.com/chnxq/x-utils v0.0.0-20260331165454-35d20273b087
 	github.com/chnxq/x-utils/mapper v0.0.0-20260331165454-35d20273b087
-	github.com/chnxq/xkitmod v0.0.0-20260411043701-ee2a753a6fb2
-	github.com/chnxq/xkitmod/log v0.0.0-20260411044744-e624782fe2e0
+	github.com/chnxq/xkitmod v0.0.0-20260411132219-50da08594d1b
+	github.com/chnxq/xkitmod/log v0.0.0-20260411132219-50da08594d1b
 	github.com/stretchr/testify v1.11.1
 	google.golang.org/protobuf v1.36.11
 )
@@ -18,7 +18,6 @@ require (
 	github.com/ClickHouse/ch-go v0.71.0 // indirect
 	github.com/andybalholm/brotli v1.2.1 // indirect
 	github.com/cespare/xxhash/v2 v2.3.0 // indirect
-	github.com/chnxq/XGoKit v0.0.0-20260405133730-f2df3fec0a32 // indirect
 	github.com/davecgh/go-spew v1.1.2-0.20180830191138-d8f796af33cc // indirect
 	github.com/go-faster/city v1.0.1 // indirect
 	github.com/go-faster/errors v0.7.1 // indirect

@@ -3,9 +3,9 @@ module github.com/chnxq/x-crud/pagination
 go 1.26.0
 
 require (
-	github.com/chnxq/x-crud/api v0.0.0-20260404174952-cb722340828e
+	github.com/chnxq/x-crud/api v0.0.0-20260411051743-72a5a38c608a
 	github.com/chnxq/x-utils v0.0.0-20260331165454-35d20273b087
-	github.com/chnxq/xkitmod v0.0.0-20260411044744-e624782fe2e0
+	github.com/chnxq/xkitmod v0.0.0-20260411132219-50da08594d1b
 	github.com/google/go-cmp v0.7.0
 	go.einride.tech/aip v0.84.0
 	google.golang.org/genproto/googleapis/api v0.0.0-20260406210006-6f92a3bedf2d
