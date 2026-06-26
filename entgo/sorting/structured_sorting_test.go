@@ -58,6 +58,34 @@ func TestStructuredSorting_BuildSelector_Orderings(t *testing.T) {
 	}
 }
 
+func TestStructuredSorting_BuildSelector_NormalizesFrontendFieldNames(t *testing.T) {
+	ss := NewStructuredSorting()
+
+	orders := []*paginationV1.Sorting{
+		{Field: "createdAt", Direction: paginationV1.Sorting_DESC},
+		{Field: "moduleDescription", Direction: paginationV1.Sorting_ASC},
+	}
+
+	selFunc, err := ss.BuildSelector(orders)
+	if err != nil {
+		t.Fatalf("unexpected error: %v", err)
+	}
+	if selFunc == nil {
+		t.Fatal("expected non-nil selector function")
+	}
+
+	s := sql.Select("t.*").From(sql.Table("t"))
+	selFunc(s)
+	sqlStr, _ := s.Query()
+
+	if !strings.Contains(sqlStr, "created_at") {
+		t.Fatalf("expected normalized created_at ordering, got: %s", sqlStr)
+	}
+	if !strings.Contains(sqlStr, "module_description") {
+		t.Fatalf("expected normalized module_description ordering, got: %s", sqlStr)
+	}
+}
+
 func TestStructuredSorting_BuildSelectorWithDefaultField(t *testing.T) {
 	ss := NewStructuredSorting()
 
